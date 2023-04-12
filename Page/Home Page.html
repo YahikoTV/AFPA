@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Sniglet" />
+    <title>Véhi'Loc</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="../Images/VÇhiLoc.svg" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="page1.html">Nos offres</a></li>
+            <li><a href="page2.html">Nos véhicules</a></li>
+            <li><a href="page3.html">Contact</a></li>
+            <li><a href="page4.html">Connexion/Inscription</a></li>
+          </ul>
+        </nav>
+        <div class="header-band"></div>
+    </header>
+    <div class="formulaire">
+        <img src="../Images/poster-voiture.svg" alt="Mazda blanche">
+        <div class="reservation">
+          <h2>Réservez votre véhicule</h2>
+          <form action="/action.php" method="post">
+            <div class="form-group">
+                <select id="card" name="usercard"><p>Choisissez une ville</p>
+                    <option value="none"> Choisissez une ville</option>
+                    <option value="paris">Paris</option>
+                    <option value="marseille">Marseille</option>
+                    <option value="lyon">Lyon</option>
+                    <option value="lille">Lille</option>
+                  </select>
+            </div>
+            <div class="form-group">
+                <label for="meeting-time">Départ:</label>
+                <input type="datetime-local" id="meeting-time"
+                    name="meeting-time" value="2023-04-11T13:30"> <br>
+            </div>
+            <div class="form-group">
+                <label for="meeting-time">Arrivée:</label>
+                <input type="datetime-local" id="meeting-time"
+                    name="meeting-time" value="2023-04-11T13:30"> <br>
+
+              <p>Type de véhicule:</p>
+            </div>
+            <div class="icons">
+              <img src="../Images/Car.svg" alt="icon voiture">
+              <img src="../Images/Truck.svg" alt="icon camion">
+              <img src="../Images/Dirt Bike.svg" alt="icon scooter">
+              <img src="../Images/Bicycle.svg" alt="icon vélo">
+            </div>
+            <button type="submit" class="btn-submit">Rechercher</button>
+          </form>
+        </div>
+      </div>
+      <p class="offre">Nos Offres du moment</p>
+      <div class="corps">
+            <div class="photo">
+              <img src="../Images/photo-offre2.svg" alt="meuf voiture">
+              <div class="rectangle-vert"></div>
+              <div class="texte-rectangle">
+                <p>Louez dès 18 ans sans surcout</p>
+              </div>
+            </div>
+            
+            <div class="photo">
+              <img src="../Images/photo-offre1.svg" alt="mec téléphone">
+              <div class="rectangle-vert"></div>
+              <div class="texte-rectangle">
+                <p>Location 24/7</p>
+              </div>
+            </div>
+            
+            <div class="photo">
+              <img src="../Images/photo-offre3.svg" alt="mec cartons">
+              <div class="rectangle-vert"></div>
+              <div class="texte-rectangle">
+                <p>Déménagez en toute sérénité</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="bloc"></div>
+          <br>
+        <p class="offre">Nos gammes de vehicules</p>
+                      
+        <div class="vehicules">
+
+            <div class="symbole">
+                <img src="../Images/Car.svg" alt="voiture">
+            </div>
+
+            <div class="symbole">
+                <img src="../Images/Truck.svg" alt="camion">
+            </div>
+
+            <div class="symbole">
+                <img src="../Images/Dirt Bike.svg" alt="scooter">
+            </div>
+
+            <div class="symbole">
+                <img src="../Images/Bicycle.svg" alt="vélo">
+            </div>
+        
+        </div>
+        <div class="clio">
+            <div class="renault">
+                <img src="../Images/renault-clio.png" alt="clio1">
+                <div class="titre1">
+                    <p class="titre2">Renault Clio</p>
+                    <p>à partir de 30€</p> 
+                </div>
+            </div>
+        
+            <div class="renault">
+                <img src="../Images/renault-clio.png" alt="clio2">
+                <div class="titre1">
+                    <p class="titre2">Renault Clio</p>
+                    <p>à partir de 30€</p> 
+                </div>
+            </div>
+        
+            <div class="renault">
+                <img src="../Images/renault-clio.png" alt="clio3">
+                <div class="titre1">
+                    <p class="titre2">Renault Clio</p>
+                    <p>à partir de 30€</p> 
+                </div>
+            </div>
+        
+            <div class="renault">
+                <img src="../Images/renault-clio.png" alt="clio4">
+                <div class="titre1">
+                    <p class="titre2">Renault Clio</p>
+                    <p>à partir de 30€</p> 
+                </div>
+            </div>
+        </div>
+    <div class="background">
+        <p class="offre">Contact</p>
+        <div class="contact">
+            <section class="col1">
+            <label for="nom">Nom</label>
+              <input id="nom" type="text" placeholder="Nom" class="form-control">
+              <label for="Prénom">Prénom</label>
+              <input id="Prénom" type="text" placeholder="Prénom" class="form-control">
+              <label for="Email">Email</label>
+              <input id="Email" type="text" placeholder="Email" class="form-control">
+            </section>
+            <section class="col2">
+              <textarea placeholder="Entrez votre demande ici"></textarea>
+            </section>
+            
+            </div>
+        </div>
+    </div>
+    <div class="bouton">
+              <button type="submit" class="button">Envoyer</button>
+    </div>
+    <div class="endband"></div>
+  <div class="footer">
+    <div class="bloc">
+      <h2>Location de voiture</h2>
+      <ul>
+        <li>Location sur Lille</li>
+        <li>Location sur Paris</li>
+        <li>Location sur Lyon</li>
+        <li>Location sur Marseille</li>
+      </ul>
+    </div>
+    
+    <div class="bloc">
+      <h2>Location d'utilitaire</h2>
+      <ul>
+        <li>Location de fourgonette</li>
+        <li>Location de fourgon</li>
+        <li>Location de camionette</li>
+        <li>Location de camion hayon</li>
+      </ul>
+    </div>
+    
+    <div class="bloc">
+      <h2>Location déménagement</h2>
+      <ul>
+        <li>Location camion déménagement</li>
+        <li>Location garde meuble</li>
+        <li>Nos kits de déménagements</li>
+      </ul>
+    </div>
+    
+    <div class="bloc">
+      <h2>Qui sommes nous ?</h2>
+      <ul>
+        <li>Devenir franchisé</li>
+        <li>Nous contacter</li>
+        <li>Conditions générales</li>
+        <li>Conditions assurance complémentaire</li>
+      </ul>
+    </div>
+   </div> 
